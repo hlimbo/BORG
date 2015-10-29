@@ -16,11 +16,7 @@ namespace Assignment4
         static void Main(string[] args)
         {
             BORG test = new BORG();
-            //test file given via BlackBoard
-            test.readFile("TheUltimateTest.txt");
-            //my file with the extra credit function WRITE being used.
-            //uncomment this line to see it work.
-            //test.readFile("test.txt");
+            test.readFile("test.txt");
             Console.ReadLine();
         }
     }
